@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+scipy
+statsmodels
+matplotlib
+seaborn
+sqlalchemy
+mysql-connector-python
+openpyxl
