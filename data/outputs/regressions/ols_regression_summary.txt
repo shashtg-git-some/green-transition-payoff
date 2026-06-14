@@ -1,0 +1,31 @@
+Simple OLS Regression: Renewable Capacity vs Lagged Carbon Price
+================================================================================
+
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     renewable_capacity_mw   R-squared:                       0.008
+Model:                               OLS   Adj. R-squared:                  0.005
+Method:                    Least Squares   F-statistic:                     2.665
+Date:                   Sun, 14 Jun 2026   Prob (F-statistic):              0.103
+Time:                           12:21:13   Log-Likelihood:                -4013.2
+No. Observations:                    351   AIC:                             8030.
+Df Residuals:                        349   BIC:                             8038.
+Df Model:                              1                                         
+Covariance Type:               nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              1.376e+04   1637.288      8.407      0.000    1.05e+04     1.7e+04
+carbon_price_lag1    89.8722     55.055      1.632      0.103     -18.408     198.153
+==============================================================================
+Omnibus:                      171.810   Durbin-Watson:                   0.135
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              685.939
+Skew:                           2.211   Prob(JB):                    1.12e-149
+Kurtosis:                       8.230   Cond. No.                         40.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Plain English Interpretation ---
+A €1 increase in the EU ETS carbon price in year T is associated with a 0.090 GW increase in renewable capacity investment in year T+1.

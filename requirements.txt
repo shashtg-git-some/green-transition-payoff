@@ -8,3 +8,4 @@ seaborn
 sqlalchemy
 mysql-connector-python
 openpyxl
+yfinance
