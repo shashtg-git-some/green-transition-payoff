@@ -63,6 +63,7 @@ python python/04_visualize_data.py
 python python/05_business_analytics.py
 python python/06_causal_inference.py
 python python/07_causal_visualizations.py
+```
 
 ## 📂 Repository Structure
 
