@@ -67,6 +67,7 @@ python python/07_causal_visualizations.py
 
 ## 📂 Repository Structure
 
+```text
 green-transition-payoff/
 ├── data/                  # Raw CSVs (Ember/Eurostat) and processed outputs
 ├── excel/                 # green_transition_financial_model.xlsx (DCF Valuation)
@@ -75,6 +76,7 @@ green-transition-payoff/
 ├── sql/                   # Queries for intermediate market aggregation
 ├── requirements.txt       # Python environment dependencies
 └── README.md              # Project documentation
+```
 
 ## 📸 Dashboard Screenshots
 
