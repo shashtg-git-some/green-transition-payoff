@@ -2,6 +2,15 @@
 
 An end-to-end data engineering and econometric modeling pipeline tracking European Union renewable energy deployment, evaluating RED III policy compliance, and modeling the financial viability of zero-carbon infrastructure.
 
+## Table of Contents
+- [🎯 The Central Question](#-the-central-question)
+- [📊 Key Findings](#-key-findings)
+- [🛠 Tech Stack & Pipeline Diagram](#-tech-stack--pipeline-diagram)
+- [🔗 Data Sources](#-data-sources)
+- [💻 How to Reproduce the Analysis](#-how-to-reproduce-the-analysis)
+- [📂 Repository Structure](#-repository-structure)
+- [📸 Dashboard Screenshots](#-dashboard-screenshots)
+
 ## 🎯 The Central Question
 How does the macroeconomic shock of rising EU ETS carbon prices accelerate the structural transition from fossil fuels to renewable energy, and what is the exact financial payoff of this transition under RED III targets?
 
