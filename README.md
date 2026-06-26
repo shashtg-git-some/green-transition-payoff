@@ -14,8 +14,14 @@ An end-to-end data engineering and econometric modeling pipeline tracking Europe
 ## 🎯 The Central Question
 How does the macroeconomic shock of rising EU ETS carbon prices accelerate the structural transition from fossil fuels to renewable energy, and what is the exact financial payoff of this transition under RED III targets?
 
+*(Visualizing the Macro Transition)*
+![Structural Shift in EU Electricity Generation](charts/structural_shifts.png)
+
 ## 📊 Key Findings
 * **The Policy Premium (Time-Lagged & Panel OLS):** Time-lagged OLS regression demonstrates a quantifiable relationship between carbon markets and physical infrastructure, where a €1 increase in the EU ETS carbon price in year $T$ is associated with a 0.090 GW increase in renewable capacity investment in year $T+1$. Additionally, a Hetero TWFE Panel OLS model utilizing high fossil intensity as a covariate confirms that historically dirty grids reduced fossil generation structurally faster under carbon price pressure.
+  
+![Causal OLS Divergence](charts/causal_timeline_divergence.png)
+
 * **Stranded Asset Risk (NPV Valuation):** A 20-year Discounted Cash Flow model (8% WACC) reveals a massive valuation gap under an €80/tonne carbon price: a standard Wind asset yields an NPV of **+€1.94 billion**, whereas an equivalent Combined-Cycle Gas asset yields **-€164 million**, quantifying severe long-term fossil exposure risk.
 * **RED III Target Trajectories:** Despite aggressive transition timelines and capital reallocation, current tracking reveals localized grid infrastructure bottlenecks. At current run-rates, multiple key European economies are off-pace to clear the binding **42.5%** renewable generation threshold by 2030, highlighting the need for accelerated intervention.
 
@@ -69,3 +75,9 @@ green-transition-payoff/
 ├── sql/                   # Queries for intermediate market aggregation
 ├── requirements.txt       # Python environment dependencies
 └── README.md              # Project documentation
+
+## 📸 Dashboard Screenshots
+
+![Macroeconomic Overview](powerbi/page_1.png)
+![Transition Dynamics](powerbi/page_2.png)
+![RED III Compliance Tracker](powerbi/page_3.png)
