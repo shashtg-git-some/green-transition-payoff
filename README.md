@@ -45,7 +45,7 @@ To clone this repository and run the Python pipeline locally, execute the follow
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YOUR-USERNAME/green-transition-payoff.git](https://github.com/YOUR-USERNAME/green-transition-payoff.git)
+git clone [https://github.com/shashtg-git-some/green-transition-payoff.git](https://github.com/shashtg-git-some/green-transition-payoff.git)
 cd green-transition-payoff
 
 # 2. Set up a virtual environment (Mac/Linux)
@@ -66,7 +66,6 @@ python python/07_causal_visualizations.py
 
 ## 📂 Repository Structure
 
-```text
 green-transition-payoff/
 ├── data/                  # Raw CSVs (Ember/Eurostat) and processed outputs
 ├── excel/                 # green_transition_financial_model.xlsx (DCF Valuation)
