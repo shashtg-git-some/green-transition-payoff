@@ -257,7 +257,7 @@ ORDER BY renewable_share_pct DESC;
 -- ----------------------------------------------------------------------------
 -- QUERY 15: The Grand Conclusion (Cohort Transition 2010 vs 2022)
 -- Concept Demonstrated: Advanced CTEs, Cohort Assignment, and Delta Calculations
--- Analytical Insight: This mirrors the Causal Inference model. It splits Europe 
+-- Analytical Insight: This mirrors the panel regression model. It splits Europe 
 -- into "Dirty" vs "Clean" grids based on their 2010 starting point. It then proves 
 -- that when the carbon price spiked, the "Dirty" cohort was forced to eliminate 
 -- a massive amount of their fossil generation, while the "Clean" cohort eliminated

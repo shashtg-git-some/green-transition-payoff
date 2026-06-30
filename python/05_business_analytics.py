@@ -23,7 +23,10 @@ def run_business_analytics():
             global_mean = df[col].mean()
             df[col] = df[col].fillna(global_mean if pd.notna(global_mean) else 0)
             
-    # DATA ENGINEERING PATCH: Derive missing capacity data from actual generation
+    # NOTE: Eurostat installed-capacity data was incomplete, so this is a PROXY:
+    # renewable generation (TWh) rescaled to an MW-equivalent via a flat 25% capacity
+    # factor (1e6 / (8760 * 0.25) = 456.62). It is a linear transform of generation,
+    # NOT measured installed capacity — interpret any result on it as generation, not capacity.
     df["renewable_capacity_mw"] = df["elec_gen_renewables_twh"] * 456.62
     
     df = df.sort_values(["country_name", "year"])

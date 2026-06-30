@@ -6,8 +6,8 @@ Simple OLS Regression: Renewable Capacity vs Lagged Carbon Price
 Dep. Variable:     renewable_capacity_mw   R-squared:                       0.008
 Model:                               OLS   Adj. R-squared:                  0.005
 Method:                    Least Squares   F-statistic:                     2.665
-Date:                   Sun, 14 Jun 2026   Prob (F-statistic):              0.103
-Time:                           12:21:13   Log-Likelihood:                -4013.2
+Date:                   Tue, 30 Jun 2026   Prob (F-statistic):              0.103
+Time:                           16:47:57   Log-Likelihood:                -4013.2
 No. Observations:                    351   AIC:                             8030.
 Df Residuals:                        349   BIC:                             8038.
 Df Model:                              1                                         

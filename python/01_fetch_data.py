@@ -24,7 +24,7 @@ def download_owid_data():
 
 
 def generate_carbon_prices():
-    """Generate the verified annual EU ETS carbon prices dataset to bypass API restrictions."""
+    """Hardcoded annual EU ETS carbon prices (manually compiled from public EU ETS records)."""
     output_path = "data/raw/ember_carbon_prices.csv"
     print("Generating verified annual EU ETS Carbon Prices...")
 
